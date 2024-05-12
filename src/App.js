@@ -1,4 +1,6 @@
 import "./App.css";
+import logo from "./logo.png";
+
 import Dictionary from "./dictionary";
 
 function App() {
@@ -6,8 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img
-          src="/Users/ana/Desktop/SheCodes/GitHub/React/dictionary-project/public/img/logo.png"
+          src={logo}
           alt="SheCodes-logo"
+          className="App-logo img-fluid"
         ></img>
       </header>
       <main>
@@ -16,7 +19,7 @@ function App() {
       <footer>
         This project was coded by{" "}
         <a
-          href="https://www.delac.io/"
+          href="https://github.com/Zana2234"
           target="_blank"
           rel="noopener noreferrer"
         >
